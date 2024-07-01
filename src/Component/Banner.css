@@ -1,0 +1,47 @@
+.banner{
+  
+    background-size: cover;
+    height: 488px;
+    color: aliceblue;
+}
+.content{
+    padding-top: 140px;
+    height: 190px;
+    padding-left: 15px;
+}
+.title{
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: .03rem;
+}
+.bt{
+    color: aliceblue;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 10px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    background-color: rgb(64, 61, 61,.5);
+    cursor: pointer;
+    margin-right: 1rem;
+}
+.bt:hover{
+    color: black;
+    background-color: aqua;
+}
+.discription{
+    width: 45rem;
+    line-height: 1.3;
+    padding-top: 1rem;
+    font-size: .9rem;
+    height: 80px;
+    max-width: 360px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fade{
+    height: 7.4rem;
+    background-image:-webkit-linear-gradient(180deg,transparent,rgba(60, 56, 56, 0.61),rgba(#111));
+}

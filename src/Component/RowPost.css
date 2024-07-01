@@ -1,0 +1,47 @@
+.row {
+    margin-left: 20px;
+    color: aliceblue;
+}
+
+.poster {
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.poster::-webkit-scrollbar {
+    display: none;
+}
+
+.po {
+    max-height: 200px;
+    margin-right: 10px;
+}
+
+.spo {
+    max-height: 100px;
+    margin-right: 10px;
+}
+
+.po:hover {
+    transform: scale(1.09);
+}
+
+.spo:hover {
+    transform: scale(1.18);
+}
+
+/* Adding styles for the video container */
+.video-container {
+    position: relative;
+    width: 100%;
+    margin-top: 20px; /* Adding some space above the video */
+    z-index: 10; /* Ensuring it is on top if overlapping occurs */
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 390px;
+    border: none;
+}
